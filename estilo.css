@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 1rem;
+  background-color: blanchedalmond;
+}
+p {
+  font-family: "Comfortaa", cursive;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+:root {
+  --lav-light: #fbf5ff;
+  --lav: #b57edc;
+}
+.btn-lav {
+  color: #fff;
+  background-color: coral;
+  border-color: #000000;
+}
+.btn-comenzar {
+  color: #fff;
+  background-color: brown;
+  border-color: black;
+  animation-duration: 8s;
+  animation-name: btn-comenzar;
+  animation-iteration-count: infinite;
+}
+@keyframes btn-comenzar {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
