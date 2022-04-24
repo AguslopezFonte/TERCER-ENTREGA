@@ -44,3 +44,16 @@ body {
     opacity: 0;
   }
 }
+footer {
+  background-color: rgb(206, 177, 177);
+  margin-top: 100px;
+}
+.container {
+  margin-top: 80px;
+}
+.colorlink {
+  color: #000000;
+}
+.staff {
+  margin-top: 100px;
+}
